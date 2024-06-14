@@ -1,0 +1,13 @@
+ /* Cadmiel Torres de Lima */
+
+ .faq-question {
+     cursor: pointer;
+     margin: 10px 0;
+ }
+
+ .faq-answer {
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.2s ease-out;
+     margin: 0 0 10px;
+ }

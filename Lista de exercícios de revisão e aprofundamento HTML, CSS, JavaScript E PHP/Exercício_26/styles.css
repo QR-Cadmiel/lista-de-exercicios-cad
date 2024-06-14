@@ -1,0 +1,62 @@
+/*Cadmiel Torres de Lima*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+}
+
+h1 {
+    color: #333;
+}
+
+#username, #message {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#send {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #0056b3;
+}
+
+#content-ul {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+#messages li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#messages li:last-child {
+    border-bottom: none;
+}

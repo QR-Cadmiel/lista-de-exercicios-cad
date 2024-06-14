@@ -1,0 +1,52 @@
+ /* Cadmiel Torres de Lima */
+
+ .navbar {
+   overflow: hidden;
+   background-color: #333;
+ }
+
+ /* Estilize os links do menu */
+ .navbar a {
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ /* Estilize o ícone do menu hambúrguer */
+ .icon {
+   display: none;
+ }
+
+ /* Quando a tela for menor que 600 pixels, esconda todos os itens do menu, exceto o primeiro item (que será o ícone do menu hambúrguer) */
+ @media screen and (max-width: 600px) {
+   .navbar a:not(:first-child) {
+     display: none;
+   }
+
+   .navbar a.icon {
+     float: right;
+     display: block;
+   }
+ }
+
+ /* O menu hambúrguer */
+ @media screen and (max-width: 600px) {
+   .navbar.responsive {
+     position: relative;
+   }
+
+   .navbar.responsive .icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+   }
+
+   .navbar.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+   }
+ }
